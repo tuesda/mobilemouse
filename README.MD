@@ -13,7 +13,10 @@ As below gifs, you can see the major functino of this app.
 
 ###Client###
 
-source code path: /client/MobileMouse
+source code path: /client/MobileMouse  
+
+####Use####
+This app need run in wifi environment. When you start the app, please input the pc's ip address. You can leave the port field as empty.
 
 ###Server###
 
