@@ -22,7 +22,7 @@ source code path: /server/mobilemouse
 **The server main code entrance:** `src/com/zhanglei/mobilemouse/main/MyServer.java`  
 
 
-###Current character set we support typing from app to pc###
+###Currently character set we support typing from app to pc###
 
 * a ~ z
 * A ~ Z
