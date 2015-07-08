@@ -27,5 +27,12 @@ source code path: /server/mobilemouse
 * a ~ z
 * A ~ Z
 * 0 ~ 9
-* backspace whitespace 
-* ! @ # $ % ^ & * ( ) _ + - = , . < > / ? \ | [ ] { } ; : ' "  
+* backspace whitespace enter
+* other: 
+
+| ! | @ | # | % | ^ | & |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| * | ( | ) | - | = | _ |
+| [ | ] | { | } | \ | \| |
+| ; | : | ' | " | , | . |
+| < | > | / | ? |
