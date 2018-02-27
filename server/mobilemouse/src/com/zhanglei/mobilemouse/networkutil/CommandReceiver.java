@@ -1,4 +1,4 @@
-package com.zhanglei.mobilemouse.networkutil;
+package com.sreejuzzz.mobilemouse.networkutil;
 
 import java.io.IOException;
 import java.io.InputStream;
