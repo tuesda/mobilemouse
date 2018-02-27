@@ -7,6 +7,9 @@ import com.zhanglei.mobilemouse.operation.OperationData;
 import com.zhanglei.mobilemouse.operation.OperationDecode;
 import com.zhanglei.mobilemouse.utils.MouseUtil;
 
+
+//Created by SreejuZzz on 27022018
+
 public class MyServer {
 	private static final float MOVE_RATIO = 0.2f;
 	public static void main(String[] args) {
