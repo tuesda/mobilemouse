@@ -1,4 +1,8 @@
-package com.sreejuzzz.mobilemouse.networkutil;
+package com.sreejuzzz.mobilemouse.operation;
+
+/**
+ * Created by SreejuZzz on 27022018
+ */
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,7 +10,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 
-// Created by SreejuZzz on 27022018//
 
 public class CommandReceiver extends Thread {
 	public static final int PORT = 9898;
