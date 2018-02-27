@@ -1,8 +1,9 @@
-package com.zhanglei.mobilemouse.operation;
+package com.sreejuzzz.mobilemouse.operation;
 
 /**
- * Created by zhanglei on 15/7/2.
+ * Created by SreejuZzz on 27022018
  */
+
 public class OperationData {
     public static final int OPERATION_MOVE = 0;
     public static final int OPERATION_CLICK_DOWN = 1;
