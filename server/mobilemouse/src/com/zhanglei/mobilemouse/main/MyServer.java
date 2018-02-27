@@ -1,4 +1,4 @@
-package com.zhanglei.mobilemouse.main;
+package com.sreejuzzz.mobilemouse.main;
 
 
 import com.zhanglei.mobilemouse.networkutil.CommandReceiver;
