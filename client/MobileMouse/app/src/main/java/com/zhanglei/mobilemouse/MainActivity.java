@@ -1,4 +1,10 @@
-package com.zhanglei.mobilemouse;
+package com.sreejuzzz.mobilemouse;
+
+
+/**
+ * Created by SreejuZzz on 27022018
+ */
+
 
 import android.app.Activity;
 import android.content.Intent;
