@@ -1,4 +1,10 @@
-package com.zhanglei.mobilemouse;
+package com.sreejuzzz.mobilemouse;
+
+
+/**
+ * Created by SreejuZzz on 27022018
+ */
+
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -101,14 +107,14 @@ public class BoardActivity extends Activity {
         boardInput.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                Log.i("fuck", "before: " + s);
+                Log.i("ooii", "before: " + s);
                 mLastInput = s.toString();
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (s.length()==0) return;
-                Log.i("fuck", "on: " + s + ", last char: " + s.toString().substring(s.length() - 1));
+                Log.i("ooii", "on: " + s + ", last char: " + s.toString().substring(s.length() - 1));
                 String lastChar = s.subSequence(s.length() - 1, s.length()).toString();
                 if (!TextUtils.isEmpty(lastChar) && s.length() > mLastInput.length()) {
                     sendCommand(OperationData.OPERATION_TYPE_TEXT, 0, 0, lastChar);
@@ -118,7 +124,7 @@ public class BoardActivity extends Activity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Log.i("fuck", "after: " + s.toString());
+                Log.i("ooii", "after: " + s.toString());
             }
         });
 
@@ -234,7 +240,7 @@ public class BoardActivity extends Activity {
         if (x!=0) operation.setMoveX(x);
         if (y!=0) operation.setMoveY(y);
         if (input!=null) operation.setInputStr(input);
-        Log.i("fuck", "" + operation);
+        Log.i("ooii", "" + operation);
         msg.obj = CommandParser.parseCommand(operation);
         msg.sendToTarget();
     }

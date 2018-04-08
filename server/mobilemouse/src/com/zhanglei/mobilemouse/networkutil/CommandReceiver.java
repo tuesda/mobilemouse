@@ -1,9 +1,15 @@
-package com.zhanglei.mobilemouse.networkutil;
+package com.sreejuzzz.mobilemouse.networkutil;
+
+/**
+ * Created by SreejuZzz on 27022018
+ */
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+
+
 
 public class CommandReceiver extends Thread {
 	public static final int PORT = 9898;

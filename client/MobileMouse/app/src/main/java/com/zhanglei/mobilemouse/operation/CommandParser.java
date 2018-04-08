@@ -1,10 +1,11 @@
-package com.zhanglei.mobilemouse.operation;
+package com.sreejuzzz.mobilemouse.operation;
 
 import com.google.gson.Gson;
 
 /**
- * Created by zhanglei on 15/7/3.
+ * Created by SreejuZzz on 27022018
  */
+
 public class CommandParser {
 
     public static String parseCommand(OperationData operation) {
